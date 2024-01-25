@@ -1,0 +1,31 @@
+:root {
+--pri-colour: #60d5d3;
+--sec-colour: #1e212c;
+--bor-r: 50px;
+}
+
+*{
+backgrouncolor: var(--sec-colour);
+font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: center;
+    color: var(--pri-colour);
+    background-color: var(--sec-colour);
+}
+
+.boxes{
+    outline: 3px dashed #ffffff;
+flex: 1 0 30%;
+text-align: center;
+color: var(--pri-colour);
+    
+}
+
+.row{
+    background-color: var(--sec-colour);
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+    
+}
